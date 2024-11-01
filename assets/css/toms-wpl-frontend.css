@@ -1,0 +1,208 @@
+/* product label Frontend css start */
+#toms-wpl-contents{
+    display: flex;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+#toms-wpl-container{ /* width: 408px; height: 211px; */
+    width: 408px;
+    height: 211px;
+    background-color: #ffffff;
+    border-radius: 5px;
+    border: 1px #9e9e9e solid;
+}
+/* header start */
+#toms-wpl-container .toms-wpl-header{ /* height: 70px; */
+    height: 70px;
+    display: flex;
+    border-radius: 5px 5px 0px 0px;
+    border-bottom: 1px solid #9e9e9e;
+}
+#toms-wpl-container .toms-wpl-header .toms-wpl-company-logo{ /* width: 175px; */
+    width: 175px;
+    padding: 0 5px 0 10px;
+    display: flex;
+    align-items: center;
+    flex: 1;
+}
+.toms-wpl-company-logo-img{
+    display: flex;
+    flex: 0;
+    margin-right: 8px;
+}
+.toms-wpl-company-logo-img img{
+    vertical-align: middle;
+    max-width: 56px;
+    width: 56px;
+    height: 56px;
+}
+.toms-wpl-company-logo-text{
+    flex: 1;
+    font-size: 32px;
+    font-weight: 500;
+}
+.toms-wpl-right-text{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+.toms-wpl-upmark{
+    flex: 1;
+    align-self: flex-end;
+    padding-right: 5px;
+    padding-top: 5px;
+}
+.toms-wpl-company-name{
+    flex: 1;
+    align-self: flex-end;
+    padding: 0 5px 5px 0;
+    font-size: 13px;
+    display: flex;
+    align-items: flex-end;
+    text-align: right;
+}
+/* header end */
+
+/* column 0 start */
+#toms-wpl-container .toms-wpl-column0{ /* height: 37px; */
+    height: 37px;
+    padding-top: 5px;
+    padding-left: 10px;;
+    display: flex;
+    align-items: center;
+}
+.toms-wpl-section0{
+    margin-right: 5px;
+    flex: 1;
+    font-size: 13px;
+}
+.toms-wpl-section0-1{
+    margin-right: 5px;
+    flex: 0.6;
+    font-size: 13px;
+}
+.toms-wpl-unit0-1{
+    font-weight: bold;
+    padding-right: 5px;
+}
+.toms-wpl-unit0-2{
+    font-size: 13px;
+}
+/* column 0 end */
+
+/* column 1 */
+#toms-wpl-container .toms-wpl-column1{ /* height: 32px; */
+    height: 32px;
+    padding-left: 10px;;
+    display: flex;
+    align-items: center;
+}
+.toms-wpl-section1{
+    margin-right: 5px;
+    flex: 1;
+    font-size: 13px;
+    display: flex;
+}
+.toms-wpl-section1-1{
+    margin-right: 5px;
+    flex: 0.6;
+    font-size: 13px;
+}
+.toms-wpl-unit0-3{
+    font-weight: bold;
+    padding-right: 5px;
+}
+.toms-wpl-unit0-4{
+    font-size: 13px;
+}
+/* column 1 end */
+
+/* column 2 */
+#toms-wpl-container .toms-wpl-column2{ /* height: 42px; */
+    height: 72px;
+    padding-left: 0;
+    display: flex;
+    align-items: center;
+}
+.toms-wpl-section2-1{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    font-size: 13px;
+}
+.toms-wpl-unit2-1{
+    flex: 1;
+    display: flex;
+}
+.toms-wpl-unit2-1 svg{
+    width: 200px;
+    height: 60px;
+}
+.toms-wpl-unit2-2{
+    flex: 1;
+    display: flex;
+}
+.toms-wpl-unit2-2-1{
+    flex: 2;
+    text-align: center;
+}
+.toms-wpl-unit2-2-2{
+    flex: 1;
+    text-align: right;
+    padding-right: 5px;
+}
+.toms-wpl-section2-2{
+    font-weight: bold;
+    margin-right: 5px;
+    flex: 1;
+    display: flex;
+    height: 60px;
+}
+.toms-wpl-unit2-3{
+    flex: 1;
+    display: flex;
+    justify-content: flex-end;
+    padding: 5px 0;
+}
+.toms-wpl-unit2-3 img{
+    width: 50px;
+    height: 50px;
+}
+.toms-wpl-unit2-4{
+    flex: 1;
+    display: flex;
+    justify-content: flex-end;
+}
+#toms-wpl-qrcode{
+    display: flex;
+    align-items: center;
+    padding: 5px 0;
+}
+.toms-wpl-unit2-4 img{
+    width: 50px;
+    height: 50px;
+}
+@media screen and (max-width: 380px){
+    #toms-wpl-template-image{
+        padding: 0;
+    }
+    .toms-wpl-unit2-1 svg{
+        width: 170px;
+    }
+    .toms-wpl-unit2-3 {
+        align-items: center;
+        padding: 5px 2px;
+    }
+    .toms-wpl-unit2-3 img {
+        max-width: 35px;
+        max-height: 35px;
+    }
+    .toms-wpl-unit2-4 img {
+        max-width: 40px;
+        max-height: 40px;
+    }
+}
+/* column 2 end */
+
+/* product label Frontend css end */

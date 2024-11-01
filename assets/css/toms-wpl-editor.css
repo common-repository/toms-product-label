@@ -1,0 +1,155 @@
+/* TomS product tab icon */
+#woocommerce-product-data ul.wc-tabs .toms-wpl-tab a::before{
+    content: "\f323";
+    color: #46b82f;
+}
+/* TomS Woocommerce Framework CSS start */
+.toms-wpl-editor{
+    background-color: rgb(172 247 162 / 32%);
+    padding: 10px 0;
+}
+.toms-wpl-editor .toms-wpl-copyright{
+    font-style: italic;
+    text-align: right;
+    padding-right: 8px;
+    padding-top: 8px;
+    color: #9e9e9e;
+}
+.toms-wpl-editor .toms-wpl-copyright a{
+    text-decoration: none;
+    cursor: pointer;
+}
+.toms-wpl-editor .toms-wpl-copyright a:hover{
+    text-decoration: underline;
+}
+.toms-wpl-editor .toms-wpl-heading{
+    display: flex;
+    justify-content: space-between;
+}
+.toms-wpl-editor .toms-wpl-heading .toms-wpl-heading-content{
+    display: flex;
+    align-items: center;
+}
+.toms-wpl-editor .toms-wpl-heading .toms-wpl-heading-content img{
+    width: auto;
+    height: 50px;
+    padding-left: 8px;
+    margin-right: -6px;
+}
+.toms-wpl-editor .toms-wpl-heading .toms-wpl-heading-content h2{
+    font-weight: bold;
+    text-align: center;
+    font-size: 18px !important;
+    line-height: 32px !important;
+}
+.toms-wpl-editor .toms-wpl-heading .toms-wpl-review{
+    padding-right: 8px;
+    text-decoration: none;
+    margin-top: -6px;
+    cursor: pointer;
+}
+.toms-wpl-editor .toms-wpl-heading .toms-wpl-review .toms-wpl-stars{
+    display: flex;
+    justify-content: space-between;
+}
+.toms-wpl-editor .toms-wpl-heading .toms-wpl-review .toms-wpl-stars .toms-wpl-star::before {
+    font-family: WooCommerce;
+    font-size: 16px;
+    content: "\e020";
+    color: #f7a000;
+}
+.toms-wpl-editor .toms-wpl-heading .toms-wpl-review .toms-wpl-review-notice{
+    font-size: 10px;
+    font-weight: 400;
+    text-align: right;
+}
+.toms-wpl-editor .toms-wpl-heading .toms-wpl-review .toms-wpl-review-notice:hover{
+    text-decoration: underline;
+}
+/* TomS Woocommerce Framework CSS end */
+
+/* TomS Product Label template image start*/
+#toms-wpl-template-image{
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+#toms-wpl-template-image img{
+    max-width: 700px;
+    width: 100%;
+}
+/* TomS Product Label template image end*/
+
+/* TomS Product Label CSS start */
+
+#toms-wpl-editor .toms-wpl-text-field{
+    display: flex;
+    gap: 8px;
+    padding: 10px !important;
+}
+#toms-wpl-editor .toms-wpl-heading-field,
+#toms-wpl-editor .toms-wpl-position-field,
+#toms-wpl-editor .toms-wpl-qrcode-field,
+#toms-wpl-editor .toms-wpl-img-field{
+    flex-direction: column;
+}
+#toms-wpl-editor .toms-wpl-text-field-unit{
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+#toms-wpl-editor .toms-wpl-text-field-unit label{
+    flex: 1;
+    width: 100%;
+    margin: 0;
+    float: none;
+    font-weight: bold;
+}
+#toms-wpl-editor .toms-wpl-1dbarcode-field .toms-wpl-text-field-unit-span{
+    flex: 2;
+}
+#toms-wpl-editor .toms-wpl-text-field-unit .woocommerce-help-tip{
+    margin: 0;
+}
+#toms-wpl-editor .toms-wpl-text-field-unit input[type=text]{
+    width: 100%;
+    flex: 1;
+}
+#toms-wpl-editor .toms-wpl-1dbarcode-field .toms-wpl-1dbarcode-format-select{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+#toms-wpl-editor .toms-wpl-1dbarcode-field .toms-wpl-1dbarcode-format-select label{
+    margin: 0;
+    font-weight: bold;
+    float: none;
+    width: 100%;
+    flex: 1;
+}
+#toms-wpl-editor .toms-wpl-1dbarcode-field .toms-wpl-1dbarcode-format-select .toms-wpl-1dbarcode-format{
+    min-width: 125px;
+    max-width: 100%;
+    flex: 1;
+    float: none;
+}
+@media screen and (min-width: 1025px){
+    #toms-wpl-editor{
+        padding: 30px;
+    }
+}
+@media screen and (max-width: 1024px){
+    #toms-wpl-editor{
+        padding: 20px;
+    }
+}
+@media screen and (max-width: 375px){
+    #toms-wpl-editor{
+        padding: 0;
+    }
+    #toms-wpl-editor .toms-wpl-bg-color .woocommerce-help-tip{
+        display: none;
+    }
+}
+/* TomS Product Label CSS end */
